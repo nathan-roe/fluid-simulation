@@ -1,27 +1,6 @@
-import time, os
+import os
 from enum import Enum
 from math import floor
-
-# frames = [
-# 	"OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
-# 	"OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
-# 	"OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
-# 	"OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
-# ]
-
-# for frame in frames:
-# 	os.system('cls' if os.name == 'nt' else 'clear')
-# 	print(frame)
-# 	time.sleep(0.3)
-
-
-
-# x,y = get_terminal_dimensions()
-# frame = "".join(["O" for _ in range(x * y)])
-# os.system("clear")
-# print(frame)
-# # print("\033[H", end="")
-# time.sleep(3)
 
 class FluidCell:
 	def __init__(self, density=10):
